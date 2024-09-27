@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3b2a1a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+.meals-grid,
+.ingredients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.meal-item,
+.ingredient-item {
+  transition: 0.5s;
+  background-color: #4a3b29;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.meal-item img,
+.ingredient-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: #ff9800;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e68900;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.meal-item:hover {
+  transform: scale(1.1);
+}
